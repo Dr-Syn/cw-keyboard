@@ -41,7 +41,8 @@ morse = {
 	'--..--': ',',
 	'-....-': '-',
 	'.-...': 'sp', #space
-	'--.-.-': 'sh' #shift
+	'--.-.-': 'sh', #shift
+	'........': 'er' #error - backspace
 }
 
 
@@ -87,4 +88,5 @@ kbmap['cr'] = (0x28)
 kbmap['-'] = (0x2D)
 kbmap['.'] = (0x37)
 kbmap[','] = (0x36)
+kbmap['er'] = (0x2A)
 
