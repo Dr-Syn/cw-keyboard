@@ -15,6 +15,8 @@ The green LED should come on to indicate a successful contact. When a valid mors
 
 lookups.py holds the translation. Please note the use of the AA prosign to indicate the return key and the AS prosign for a space. 
 
+Standard '........' is backspace - so don't mess up very often ;-)
+
 Also, '--.-.-' has been assigned to a 'shift' indicator. This should act as per a shift key on the keyboard - e.g. shift + a = A and shift + 1 = !
 
 Some characters on the keyboard are missing; if you wand them, add them to the kbmap in lookups.py by their scan codes, and add some means of invoking them into the morse dict.
